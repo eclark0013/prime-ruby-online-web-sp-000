@@ -6,7 +6,7 @@ def prime?(x)
   end
   composite_num_check=
     Array(2..Math.sqrt(x).floor).any? do |divisor|
-      x%divisior == 0
+      x%divisor == 0
     end
   if composite_num_check
     primeness=false
