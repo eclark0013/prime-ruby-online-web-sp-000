@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(x)
+  primeness=true
   if x<2
-    false
+    primeness=false
   end
+  primeness
 end
