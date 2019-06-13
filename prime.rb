@@ -5,7 +5,7 @@ def prime?(x)
     primeness=false
   end
   composite_num_check=
-    Array(2..Math.sqrt(x).floor).any do |divisor|
+    Array(2..Math.sqrt(x).floor).any? do |divisor|
       x%divisior == 0
     end
   if composite_num_check
