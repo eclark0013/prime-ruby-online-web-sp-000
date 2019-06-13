@@ -2,7 +2,8 @@
 def prime?(x)
   primeness=true
   if x<2
-    primeness=false
+    return false
+    break
   end
   composite_num_check=
     Array(2..Math.sqrt(x).floor).any? do |divisor|
